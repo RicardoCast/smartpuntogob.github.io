@@ -1,0 +1,331 @@
+#hero {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../../assets/img/background/backSmart.png");
+}
+
+#logo {
+  width: 200px;
+}
+
+#item-nav {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#main-menu {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#item-nav a {
+  color: #1A4D79;
+}
+
+.img-hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: calc(16vh);
+}
+
+.eslogan1, .eslogan2, .eslogan3 {
+  color: #1A4D79;
+  text-align: right;
+  font-size: 25pt;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+}
+
+.eslogan1 {
+  margin-top: 1rem;
+  margin-right: 15%;
+}
+
+.eslogan2 {
+  margin-top: 3rem;
+  margin-right: 15%;
+}
+
+#Nosotros, #Servicios, #Desarrollos, #Seguridad, #Socios, #Clientes, #Contacto {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#full-menu {
+  background: #fff;
+  max-width: 100vw;
+}
+
+#titulo {
+  color: #fff;
+  text-align: center;
+  padding: 5% 0;
+}
+
+#Nosotros, #Desarrollos, #Socios, #Contacto {
+  background: #224d79;
+}
+
+#titleClientes {
+  color: rgb(34,77,121);
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+#logo-cliente {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#hr-cliente {
+  border: 1px solid #224d79;
+  opacity: 0.9;
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 11%;
+}
+
+#titleSocios {
+  color: #fff;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+#hr-socios {
+  border: 1px solid #ffffff;
+  opacity: 0.9;
+  width: 20%;
+  display: block;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#logo-socios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+  background-color: #fff;
+  padding: 2%;
+  border-radius: 10px 0px;
+}
+
+.eslogan3 {
+  margin-top: 3rem;
+  margin-right: 15%;
+}
+
+.about1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#about-title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 40pt;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  z-index: 2;
+}
+
+.about2 {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.about-smart {
+  position: relative;
+}
+
+#Contactenos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#videoBack {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+}
+
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#Clientes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(255,255,255,.9), rgba(255,255,255,.9)), url('../../assets/img/background/back.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10%;
+}
+
+#Servicios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nuestros-servicios {
+  text-align: justify;
+  font-size: 15pt;
+}
+
+#lista-servicios {
+  display: flex;
+  justify-content: center;
+}
+
+#Seguridad-Container {
+  min-height: 100vh;
+}
+
+#rumble-logo {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#seguridad-1 {
+  background-color: #000;
+  min-height: 100vh;
+}
+
+#rumble-img {
+  width: 80%;
+}
+
+#content-rumble {
+  min-height: 100vh;
+  padding: 10%;
+  text-align: center;
+}
+
+#img-drone {
+  filter: drop-shadow(0 0 5px rgba(255,245,225,0.8));
+  width: 70%;
+  margin-top: 10%;
+}
+
+#linea-drone {
+  border: 2px solid #fff;
+  width: 41%;
+  opacity: 0.5;
+  display: block;
+  margin: 2.5em auto;
+}
+
+#text-drone {
+  color: #fff;
+  font-size: 15pt;
+  text-shadow: 0 0 3px #000, 0 0 10px #000, 0 0 15px #000;
+}
+
+#seguridad-2 {
+  min-height: 100vh;
+  background: linear-gradient(rgba(40,60,80,.7), rgba(40,60,80,.7)),url('../../assets/img/background/rumble_auto_back.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#mapa {
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+.imagenCliente3 {
+  width: 70%;
+}
+
+.imagenCliente {
+  width: 100%;
+}
+
+#Socios {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+
+#sobreSmartGob, #parrafo-Mision, #parrafo-Vision {
+  text-align: justify;
+  font-size: 15pt;
+}
+
+#contenido-Nosotros, #Mision, #Vision {
+  padding-top: 5%;
+}
+
+#contenido-Nosotros {
+  margin-top: 10%;
+  padding: 5%;
+}
+
+#Footer {
+  min-height: 10vh;
+}
+
+#columna1-footer {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+}
+
+#copyright {
+  color: #224d79;
+  font-size: 11pt;
+  font-weight: 900;
+  margin: 0px !important;
+}
+
+#logo-footer {
+  width: 33%;
+}
+
+#columna2-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar > .container-fluid {
+    background: rgba(255,255,255,0.9);
+  }
+}
+
+#ver-mas {
+  background-color: #224d79;
+  width: 50%;
+  border-radius: 7px;
+  border-color: #224d79;
+  font-weight: 900;
+  font-size: 15pt;
+}
+
