@@ -314,12 +314,6 @@
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 767px) {
-  .navbar > .container-fluid {
-    background: rgba(255,255,255,0.9);
-  }
-}
-
 #ver-mas {
   background-color: #224d79;
   width: 50%;
@@ -327,5 +321,17 @@
   border-color: #224d79;
   font-weight: 900;
   font-size: 15pt;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar > .container-fluid {
+    background: rgba(255,255,255,0.9);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .img-hero {
+    display: none;
+  }
 }
 
